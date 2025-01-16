@@ -36,6 +36,26 @@ body {
   flex-wrap: wrap;
 }
 
+#pomodoro-minutes {
+  width: 60px;
+  text-align: center;
+}
+
+.interval-btn {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.interval-btn:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
 #time-left {
   font-family: "Karla", sans-serif;
   font-size: 10.375rem;
